@@ -5,6 +5,7 @@ import Foundation
  * Check Permutation: Given two strings,write a method to decide if one is a permutation of the
  other.
  */
+
 // O(nLogn)
 func isPermutation(of input1:String, and input2:String) -> Bool{
     if input1.count != input2.count {
